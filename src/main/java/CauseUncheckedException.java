@@ -15,5 +15,8 @@ public class CauseUncheckedException {
      */
     public void throwUncheckedException(){
 
+        throw new ArithmeticException("The filename is null or empty.");
+
+
     }
 }
